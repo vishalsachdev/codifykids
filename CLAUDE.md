@@ -14,6 +14,15 @@ the external registrar needs.
 
 ## Session Log
 
+### 2026-07-05 (frontend rebuild)
+- Completed: Replaced the snapshotted Wix DOM with a hand-authored responsive
+  site (docs/assets/site.css + 7 HTML pages, generated posts via
+  scripts/build_posts.py). Same palette + URLs; code-tag section motif;
+  real portraits (IMG_4477=Shreya, IMG_1216=Aryan — the old "press gallery"
+  images were actually people); 640KB total. Pruned all unused Wix assets.
+- Next: content is verbatim from 2020 ("Our Current Camp" = April 2020) —
+  user may want a copy refresh if camps resume.
+
 ### 2026-07-04
 - Completed: Extracted www.codifykids.org from Wix end-to-end. Phase 1:
   mirrored 8 pages + media, stripped free-plan banner, published to GitHub
