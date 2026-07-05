@@ -23,6 +23,10 @@ the external registrar needs.
   stale /register page (form posted to Wix), fixed home title, removed
   "Proudly created with Wix.com". Verified zero external requests except
   the YouTube embed + outbound content links.
-- Next: User must update DNS at the registrar (www CNAME →
-  vishalsachdev.github.io; apex A → 185.199.108-111.153), then enable
-  "Enforce HTTPS" in repo Pages settings once the cert is issued.
+- 2026-07-05 follow-up: DNS switched at Squarespace (registrar; serves via
+  legacy Google Cloud DNS nameservers for ex-Google-Domains registrations).
+  Cert issuance needed a domain remove/re-add nudge. HTTPS enforced;
+  www + apex + .com redirect all verified. MIGRATION COMPLETE. Wix account
+  can be closed. Open question for user: whether @codifykids.org email
+  forwarding matters (old Google Domains gmr MX are dead; Squarespace
+  Email Forwarding rules would replace them).
